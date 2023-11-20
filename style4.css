@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fjalla+One&display=swap');
+body {
+    font-family: 'Fjalla One', sans-serif;
+background-color: black;
+    color: white;
+}
+section.container {
+    width: 800px;
+    margin: 0 auto;
+}
+header.header h1 {
+    font-size: 44px;
+    text-transform: capitalize;
+}
+.tagged h2 {
+    color: red;
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+p {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.next {
+    font-size: 26px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav img {
+    width: 35%;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+nav.home a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    /* color: black; */
+    padding: 4px;
+    border-radius: 6px;
+}
+.flex {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.flex a{
+    color: white;
+}
+.icon {
+    display: flex;
+    gap: 14px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.full {
+    margin-top: 200px;
+}
+.full h2 {
+    color: white;
+    font-size: 32px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.full p {
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.flex a {
+    border: 1.5px solid white;
+    padding: 4px;
+    border-radius: 88px;
+    margin-top: 40px;
+}
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.gallery {
+    width: 65%;
+    position: relative;
+    left: 200px;
+}
+.flex-page {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.heading {
+    text-align: center;
+    font-size: 29px;
+}
+.flex-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.images img {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid black;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    border-top: 2px solid grey;
+    /* border-right: 2px double; */
+}
+.width {
+    width: 25%;
+    background: red;
+    padding: 20px;
+    height: 640px;
+    position: fixed;
+    left: 90px;
+}
